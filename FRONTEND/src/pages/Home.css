@@ -1,0 +1,122 @@
+/* Full-page container */
+.home-container {
+    min-height:30px;
+    background-color: #1d737b;
+    color: rgb(218, 243, 237);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  /* Filters Section */
+  .filters {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    background: #1b5a60;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .filter-item select {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  /* Buttons */
+  .reset-btn, .add-btn {
+    background-color: #ff3b3b;
+    color: rgb(220, 253, 241);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-btn {
+    background-color: #ff1744;
+  }
+  
+  .reset-btn:hover, .add-btn:hover {
+    background-color: darkred;
+  }
+  
+  /* Graph Icon */
+  .graph-icon {
+    font-size: 24px;
+    background: rgb(60, 4, 4);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* Transaction Form */
+  .transaction-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: flex-end;
+  }
+  
+  .transaction-form input,
+  .transaction-form select {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  /* Table */
+  .table-container {
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #3c899c;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  /* No data message */
+  .no-data {
+    text-align: center;
+    font-style: italic;
+    color: gray;
+  }
+  
+  /* Delete button */
+  .delete-btn {
+    background-color: #ff3b3b;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: darkred;
+  }
+  

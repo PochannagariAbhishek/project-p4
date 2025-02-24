@@ -1,0 +1,65 @@
+/* Styling for Transaction Form */
+.transaction-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .transaction-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #2d3436;
+  }
+  
+  .transaction-form input,
+  .transaction-form select,
+  .transaction-form button {
+    font-size: 16px;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+  
+  .transaction-form input, .transaction-form select {
+    background-color: #f8f8f8;
+  }
+  
+  .transaction-form button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .transaction-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .transaction-form input:focus, .transaction-form select:focus {
+    border-color: #4caf50;
+    outline: none;
+  }
+  
+  .transaction-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    resize: vertical;
+  }
+  
+  .transaction-form textarea:focus {
+    border-color: #4caf50;
+    outline: none;
+  }
+  

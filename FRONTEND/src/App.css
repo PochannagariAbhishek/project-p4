@@ -1,0 +1,212 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f10202;
+  color: #333;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #1a4ccc;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Responsive container for components */
+.App > * {
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 30px;
+}
+
+/* Card styling */
+.card {
+  padding: 2em;
+}
+
+/* Read the docs text */
+.read-the-docs {
+  color: #888;
+}
+
+/* Dashboard */
+.dashboard {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #333;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #555;
+}
+
+/* Summary section */
+.summary {
+  display: flex;
+  justify-content: space-between;
+  background: #010d1a;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.summary p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.credit {
+  color: green;
+}
+
+.debit {
+  color: red;
+}
+
+.balance {
+  color: #007bff;
+}
+
+/* Transaction Form */
+.transaction-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  background: #da0606;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-form input,
+.transaction-form select,
+.transaction-form button {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.transaction-form button {
+  background: #007bff;
+  color: rgb(213, 25, 25);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.transaction-form button:hover {
+  background: #1b4c80;
+}
+
+/* Charts and Tracking */
+.charts, .time-tracking {
+  margin-top: 20px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Inputs and Selectors */
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Transaction List */
+.transaction-list {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.transaction-item {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-item p {
+  margin: 5px 0;
+}
+
+/* Category Selector */
+.category-selector {
+  margin: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .App {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .App > * {
+    max-width: 100%;
+  }
+}
+
+
+/* some home.css code*/
+
