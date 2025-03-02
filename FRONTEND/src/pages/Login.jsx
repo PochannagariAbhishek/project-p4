@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { login } from "../services/api";
 
 function Login({ onLogin }) {
   const [email, setEmail] = useState("");
@@ -8,6 +9,8 @@ function Login({ onLogin }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(email+'\n',password)
+    login({email,password})
     onLogin();
     navigate("/");
   };

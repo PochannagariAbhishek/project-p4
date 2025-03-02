@@ -7,6 +7,7 @@ function Navbar() {
       <Link to="/budget">Budget</Link>
       <Link to="/history">History</Link>
       <Link to="/settings">Settings</Link>
+      <Link to="/logout">Logout</Link>
     </nav>
   );
 }

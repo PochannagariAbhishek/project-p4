@@ -34,6 +34,7 @@ function App() {
               <Route path="/login" element={<Login onLogin={() => setIsAuthenticated(true)} />} />
               <Route path="/signup" element={<Signup onSignup={() => setIsAuthenticated(true)} />} />
               <Route path="*" element={<Navigate to="/login" />} />
+              <Route path="*" element={<Navigate to="/signup" />} />
             </>
           ) : (
             <>

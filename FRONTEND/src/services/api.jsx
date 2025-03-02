@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "https://your-api-url.com"; // Replace with your real API endpoint
+const API_BASE_URL = "http://localhost:5000/api"; // Replace with your real API endpoint
 
 // Create an Axios instance
 const api = axios.create({
@@ -24,7 +24,8 @@ const setAuthToken = (token) => {
 // ✅ AUTHENTICATION: Login & Signup
 export const login = async (email, password) => {
   try {
-    const response = await api.post("/auth/login", { email, password });
+    console.log('request recieved')
+    const response = await axios.post("http://localhost:5000/api/auth/login", { email, password });
     setAuthToken(response.data.token);
     return response.data;
   } catch (error) {

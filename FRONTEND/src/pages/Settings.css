@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #121212, #1e1e1e);
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .settings-container {
+    width: 1200px;
+    max-width: 1000px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(12px);
+    transition: transform 0.3s ease, background 0.3s ease-in-out;
+  }
+  
+  .settings-container:hover {
+    background: rgba(42, 231, 133, 0.2);
+    transform: scale(1.02);
+  }
+  
+  .setting-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: background 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .setting-item:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateX(5px);
+  }
+  
+  .setting-item label {
+    font-size: 17px;
+    font-weight: 500;
+  }
+  
+  select, input[type="checkbox"] {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    transition: background 0.3s;
+  }
+  
+  select:hover, input[type="checkbox"]:hover {
+    background: #444;
+  }
+  
+  button {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #0056b3, #003d80);
+    transform: translateY(-2px);
+  }
+  
